@@ -26,19 +26,21 @@
 		display: inline-block;
 		padding: 8px 15px;
 		text-decoration: none;
+		text-shadow: 1px 1px 0 #666;
 	}
 	
 	p:last-of-type a {
 		color: #666;
 		cursor: pointer;
 		font-size: 12px;
+		text-shadow: none;
 	}
 	</style>
 </head>
 
 <body>
 	<h1>Not Required Bookmarklet</h1>
-	<h3>Removes all required fields to test form submissions</h3>
+	<h3>Removes all required field attributes to test form submissions</h3>
 	<p>Drag the link to your bookmarks bar</p>
 	<p><a href="javascript:(function(){var script=document.createElement('SCRIPT');script.src='https://github.com/stowball/Not-Required/raw/master/not.required.bookmarklet.min.js';document.body.appendChild(script);})()">Not Required</a></p>
 	<p><a href="https://github.com/stowball/Not-Required">Get the source on GitHub</a></p>
